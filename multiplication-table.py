@@ -21,23 +21,13 @@ Height of multiplication table: 8
   7  14  21  28  35  42  49  56  63  70
   8  16  24  32  40  48  56  64  72  80
 """
- Width=input("Width of multiplication table: ")
- Height=input("Height of multipication table: ")
- 
- # Define blank list
-board = []
+width=float(input("Width of multiplication table: "))
+height=float(input("Height of multiplication table: "))
 
-#Generate rows with length of 3
-for row in range(3):
-  # Appen a blank list to each row cell
-  board.append([])
-  for column in range(3):
-    # Assign x to each row
-    board[row].append('x')
 
-# Function will print board like an actual board
-def print_board(board):
-  for row in board:
-    print " ".join(row)
-
-print_board(board)
+count=0
+    
+while count <=int(height):
+    for i in range(0,int(width)): print("x", "", end="")
+    count +=1
+    
