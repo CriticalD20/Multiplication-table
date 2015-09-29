@@ -1,7 +1,7 @@
 """
 multiplication-table.py
 Author: James Napier
-Credit: Anoushka, http://stackoverflow.com/questions/493386/how-to-print-in-python-without-newline-or-space
+Credit: Anoushka, http://stackoverflow.com/questions/493386/how-to-print-in-python-without-newline-or-space, http://stackoverflow.com/questions/23108861/multiplication-table-for-double-digit-numbers-using-nested-loops-in-python
 Assignment:
 
 Write and submit a Python program that prints a multiplication table. The user 
