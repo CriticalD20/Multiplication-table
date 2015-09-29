@@ -27,7 +27,8 @@ height=input("Height of multiplication table: ")
 for h in range(0,int(height)):
     print()
     for i in range(0,int(width)): 
-        print((h+1)*(i+1), end=" ")
+        print("{:2d}".format((h+1) * (i+1)), end="  ") 
+    
 
 
 
