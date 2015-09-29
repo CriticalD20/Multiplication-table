@@ -1,7 +1,7 @@
 """
 multiplication-table.py
 Author: James Napier
-Credit: http://code.runnable.com/U93SdCQWCF5gU8cz/generating-a-3x3-grid-for-python
+Credit: Anoushka, http://stackoverflow.com/questions/493386/how-to-print-in-python-without-newline-or-space
 Assignment:
 
 Write and submit a Python program that prints a multiplication table. The user 
@@ -21,13 +21,14 @@ Height of multiplication table: 8
   7  14  21  28  35  42  49  56  63  70
   8  16  24  32  40  48  56  64  72  80
 """
-width=float(input("Width of multiplication table: "))
-height=float(input("Height of multiplication table: "))
+width=input("Width of multiplication table: ")
+height=input("Height of multiplication table: ")
+
+for h in range(0,int(height)):
+    print()
+    for i in range(0,int(width)): 
+        print((h+1)*(i+1), end=" ")
 
 
-count=0
-    
-while count <=int(height):
-    for i in range(0,int(width)): print("x", "", end="")
-    count +=1
+
     
